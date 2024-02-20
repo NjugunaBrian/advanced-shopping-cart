@@ -1,24 +1,26 @@
- import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Store } from "./pages/Store";
 import { Navbar } from "./components/Navbar";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+
 
 function App() {
 
-  return(
-    <>
-    <Navbar />
-    <section className="m-3">
-    
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/store" element={<Store />} />
+  return (
+    <ShoppingCartProvider>
+      <Navbar />
+      <section className="m-3">
 
-    </Routes>
-  </section>
-  </>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/store" element={<Store />} />
+
+        </Routes>
+      </section>
+    </ShoppingCartProvider>
   )
 }
 
