@@ -63,7 +63,7 @@ const {closeCart, cartItems } = useShoppingCart();
                     </div>
                   </Transition.Child>
                   <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-                    <div className="px-4 sm:px-6">
+                    <div className="px-1 md:px-4 sm:px-6">
                       <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
                         Cart
                       </Dialog.Title>
@@ -72,7 +72,7 @@ const {closeCart, cartItems } = useShoppingCart();
                         <CartItem key={item.id} {...item} />
                       ))} 
                       </div>
-                      <div className='ms-56 font-bold text-xl'>
+                      <div className='ms-44 md:ms-56 font-bold text-xl'>
                         Total: {""}
                         {formatCurrency(cartItems.reduce((total, cartItem) => {
                             const item = storeItems.find(i => i.id === cartItem.id)

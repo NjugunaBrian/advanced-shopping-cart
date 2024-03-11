@@ -17,9 +17,9 @@ export function CartItem({ id, quantity }: CartItemProps) {
 
     return (
         <>
-            <div className="flex justify-between mx-2 my-4">
+            <div className="flex justify-between mx-1 md:mx-2 my-4 w-auto">
                 <div className="flex gap-2">
-                    <img src={item?.imgUrl} className="w-32 h-20 object-cover" />
+                    <img src={item?.imgUrl} className="w-24 md:w-32 h-20 object-cover" />
                     <div>
                         <div>{item?.name} {""}{quantity > 1 && <span className="text-gray-600 text-xs">x{quantity}</span>}</div>
                         <div className="text-gray-600 text-xs">{formatCurrency(item!.price)}</div>
@@ -28,7 +28,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
                 <div>
                     <div className="flex gap-1">
                         {formatCurrency(item!.price * quantity)}
-                        <button className="border px-2 py-auto rounded-lg hover:bg-red-500" onClick={() => removeFromCart(item!.id)}>
+                        <button className="border px-1 md:px-2 py-auto rounded-lg hover:bg-red-500" onClick={() => removeFromCart(item!.id)}>
                             &times;
                         </button>
                     </div>

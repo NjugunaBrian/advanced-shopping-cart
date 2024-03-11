@@ -12,7 +12,7 @@ export function Navbar(){
     const {openCart, cartQuantity} = useShoppingCart();
     
     return(
-        <div className="p-5 shadow-sm bg-white flex items-center justify-between">
+        <div className="px-2 py-5 md:px-5 shadow-sm bg-white flex items-center justify-between">
             <nav>
                 <NavLink className="px-5" to="/">
                     Home
