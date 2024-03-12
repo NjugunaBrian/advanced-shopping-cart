@@ -17,7 +17,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
     return (
         <>
             <div className="flex flex-col">
-                <img src={imgUrl} className="h-50 object-fill" />
+                <img src={imgUrl} className="h-44 w-60 object-cover" />
                 <div>
                     <div key={id} className="flex flex-col justify-between items-center p-2">
                         <span>{name}</span>

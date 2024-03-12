@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name":"Book",
-        "category": "Literature",
+        "category": "literature",
         "price":10.99,
         "imgUrl": "/public/images/BooK.jpg"
 
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name":"Desktop",
-        "category": "Electronics",
+        "category": "electronics",
         "price":1199,
         "imgUrl": "/public/images/Desktop.jpg"
 
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name":"Bananas",
-        "category": "Groceries",
+        "category": "groceries",
         "price":1.05,
         "imgUrl": "/public/images/Bananas.jpg"
 
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name":"Car",
-        "category": "Automotives",
+        "category": "automotives",
         "price":14000,
         "imgUrl": "/public/images/Car.jpg"
 
@@ -34,51 +34,51 @@
     {
         "id": 5,
         "name": "Smart Watch",
-        "category": "Electronics",
+        "category": "electronics",
         "price": 10,
         "imgUrl": "/public/images/smart watch.jpg"
     },
     {
         "id": 6,
         "name": "Grapes",
-        "category": "Groceries",
+        "category": "groceries",
         "price": 5,
         "imgUrl": "/public/images/purple-grapes.jpg"
     },
     {
         "id": 7,
         "name": "Body Oil",
-        "category": "Skin Care",
+        "category": "skincare",
         "price": 45,
         "imgUrl": "/public/images/Body Oil.jpg"
     },
     {
         "id": 8,
         "name": "MicroWave",
-        "category": "Appliances",
+        "category": "appliances",
         "price": 105,
         "imgUrl": "/public/images/microwave.jpg"
     },
     {
         "id": 9,
         "name": "Skin Oil",
-        "category":"Skin Care",
+        "category":"skincare",
         "price": 67,
         "imgUrl": "/public/images/Skin Oil.jpg"
     },
     {
         "id": 10,
         "name": "Phone",
-        "category": "Electronics",
+        "category": "electronics",
         "price": 203,
         "imgUrl": "/public/images/phone.jpg"
     },
     {
         "id": 11,
         "name": "Blender",
-        "category": "Appliances",
+        "category": "appliances",
         "price": 17,
-        "imgUrl": "/public/images/blenderr.jpg"
+        "imgUrl": "/public/images/smoothie blender.jpg"
     }
 
 ]
