@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function All() {
 
+
     return (
-        <div className="p-5 bg-gray-100">
+        <div id='all' className="p-5 bg-gray-100">
             <div className="grid md:grid-cols-3 gap-4 grid-cols-2">
                 {storeItems.map(item => (
                     <div key={item.id} >

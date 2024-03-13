@@ -27,9 +27,9 @@ export function Newsletter() {
                         <h5 className="font-normal text-base">NEW TO THIS SITE</h5>
                         <p>Subscribe to our newsletter to get on our latest offers!</p>
                     </div>
-                    <div className="flex">
+                    <div className="flex flex-col md:flex-row gap-3">
 
-                        <div className="flex items-center justify-center bg-white text-black rounded h-10 px-5">
+                        <div className="flex items-center md:justify-center bg-white text-black rounded h-10 px-2 md:px-5">
                             <FontAwesomeIcon icon={faEnvelope} style={{ color: "black" }} />
                             <input id='email' value={email} type='email' placeholder='Email' onChange={handleChange} className='bg-transparent outline-none placeholder: mx-2' required />
                         </div>
