@@ -2,7 +2,7 @@ export function Hero(){
     return(
         <div className="md:flex bg bg-gray-100 px-0 md:px-3 mt-12">
                 <div>
-                    <img src="/public/images/shopping.png" alt="shopping banner" className="h-52 w-full md:w-auto md:h-full" />
+                    <img src="/images/shopping.png" alt="shopping banner" className="h-52 w-full md:w-auto md:h-full" />
                 </div>
                 <div className="p-10 md:p-24">
                     <h2 className="text-3xl font-semibold m-2">Shop Till You Drop</h2>

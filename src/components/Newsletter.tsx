@@ -50,7 +50,7 @@ export function Newsletter() {
                 </div>
                 <div className="flex flex-col gap-5 items-center">
                     <div className="flex gap-3">
-                        <img src="/public/images/Upside logo.jpg" className="rounded h-10" />
+                        <img src="/images/Upside logo.jpg" className="rounded h-10" />
                         <p>DOWNLOAD UPSIDE FREE APP</p>
                     </div>
                     <div className="flex gap-3">
